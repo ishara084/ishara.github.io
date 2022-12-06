@@ -112,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
