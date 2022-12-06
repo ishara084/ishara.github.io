@@ -126,7 +126,7 @@ const educationInfo = {
       schoolName: "Cardiff Metropolitan University",
       logo: require("./assets/images/cardiff.png"),
       subHeader: "Master of Science in Data Science",
-      duration: "September 2022 - Present(Readying)",
+      duration: "September 2022 - Present(Readying)"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -137,7 +137,7 @@ const educationInfo = {
       schoolName: "University of Colombo School of Computing",
       logo: require("./assets/images/uoc.png"),
       subHeader: "Bachelor of Science in Information System",
-      duration: "February 2016 - March 2019",
+      duration: "February 2016 - March 2019"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -175,7 +175,7 @@ const workExperiences = {
       company: "Wiley",
       companylogo: require("./assets/images/logo_wiley.png"),
       date: "Jan 2021 – Present",
-      desc: "Worked on several Wiley products in education domain",
+      desc: "Worked on several Wiley products in education domain"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       // ]
@@ -186,8 +186,7 @@ const workExperiences = {
       companylogo: require("./assets/images/logo_eyepax.png"),
       date: "June 2019 – Dec 2021",
       desc: "Implemented multiple dynamic & mission-critical web applications, features in various business domains(LMS, PMS, RMS, etc) that span across globally.",
-      descBullets: [
-      ]
+      descBullets: []
     }
   ]
 };
@@ -209,7 +208,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo_bodyexo.png"),
       projectName: "BodyExo",
-      projectDesc: "BodyExo Stretch captures body composition data, analysis with data visualization and delivers subscriptions to gymnasiums, premium programs, and enhanced personalization of the member journey.",
+      projectDesc:
+        "BodyExo Stretch captures body composition data, analysis with data visualization and delivers subscriptions to gymnasiums, premium programs, and enhanced personalization of the member journey.",
       footerLink: [
         {
           name: "Visit Website",
@@ -221,7 +221,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo_zuzu.png"),
       projectName: "ZUZU Hospitality Solutions",
-      projectDesc: "ZUZU Hospitality Solutions provides a All-in-One Hotel Solution(PMS, Booking engine, Marketing analytics, Revenue management etc.)  to small-medium hotels, delivering revenue growth through distribution and revenue management.",
+      projectDesc:
+        "ZUZU Hospitality Solutions provides a All-in-One Hotel Solution(PMS, Booking engine, Marketing analytics, Revenue management etc.)  to small-medium hotels, delivering revenue growth through distribution and revenue management.",
       footerLink: [
         {
           name: "Visit Website",
@@ -252,7 +253,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -274,11 +275,15 @@ const achievementSection = {
     },
     {
       title: "Certified SAFe® 5 Product Owner/Product Manager",
-      subtitle: "Completed Certification from Scaled Agile Inc for certified PO/PM",
+      subtitle:
+        "Completed Certification from Scaled Agile Inc for certified PO/PM",
       image: require("./assets/images/logo_popm.png"),
       imageAlt: "Certified SAFE PO/PM logo",
       footerLink: [
-        {name: "Badge", url: "https://www.credly.com/badges/5e1a89c4-860a-444c-be26-a317f4bf6b95"},
+        {
+          name: "Badge",
+          url: "https://www.credly.com/badges/5e1a89c4-860a-444c-be26-a317f4bf6b95"
+        }
       ]
     }
   ],
@@ -302,8 +307,7 @@ const blogSection = {
     {
       url: "https://draco-the-voyager.hashnode.dev/",
       title: "Hashnode",
-      description:
-        "Checkout my #hasdnode"
+      description: "Checkout my #hasdnode"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +347,8 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",
   email_address: "ishara.space@gmail.com"
 };
