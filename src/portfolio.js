@@ -229,6 +229,18 @@ const bigProjects = {
           url: "https://zuzuhospitality.com/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/promeister.png"),
+      projectName: "ProMeister Academy",
+      projectDesc:
+        "ProMeister Academy, A complete learning management system (LMS) delivers education to the entire automotive industry. ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://promeister.com/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
