@@ -231,7 +231,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/promeister.png"),
+      image: require("./assets/images/logo_promeister.png"),
       projectName: "ProMeister Academy",
       projectDesc:
         "ProMeister Academy, A complete learning management system (LMS) delivers education to the entire automotive industry. ",
@@ -239,6 +239,30 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://promeister.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logo_ac.png"),
+      projectName: "Advancement Courses",
+      projectDesc:
+        "Advancement Courses is a Moodle-based application that offers more self-paced recertification and salary advancement courses for teachers.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.advancementcourses.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logo_edge.jpg"),
+      projectName: "Wiley Edge",
+      projectDesc:
+        "Wiley Edge is a complete LMS platform that bridge the skills gap in technology and other high-demand disciplines by connecting education to the working world",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.wiley.com/edge/"
         }
       ]
     }
