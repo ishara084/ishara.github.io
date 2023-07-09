@@ -280,20 +280,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Fundamentals of digital marketing",
-      subtitle:
-        "Master the basics of digital marketing with our GDG course accredited by Interactive Advertising Bureau Europe and The Open University. ",
-      image: require("./assets/images/googlegarage.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Certified Solutions Architect – Associate",
+      subtitle: "Certified AWS Solutions Architect Associate",
+      image: require("./assets/images/logo_aws_associate.png"),
+      imageAlt: "Certified Solutions Architect – Associate",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code"
+          name: "Badge",
+          url: "https://www.credly.com/badges/ef0b0354-27b2-46e7-980f-780a95f0e2ba/public_url"
         }
-        // {
-        //   name: "Award Letter",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // }
       ]
     },
     {
@@ -320,6 +315,23 @@ const achievementSection = {
           name: "Badge",
           url: "https://www.credly.com/badges/5e1a89c4-860a-444c-be26-a317f4bf6b95"
         }
+      ]
+    },
+    {
+      title: "Fundamentals of digital marketing",
+      subtitle:
+        "Master the basics of digital marketing with our GDG course accredited by Interactive Advertising Bureau Europe and The Open University. ",
+      image: require("./assets/images/googlegarage.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code"
+        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // }
       ]
     }
   ],
