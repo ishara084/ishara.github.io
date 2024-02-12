@@ -23,7 +23,7 @@ const greeting = {
   username: "Draco The Voyager",
   title: "Hi all, I'm Ishara",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Python / PHP / AWS and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer 🚀 having an experience of Web applications development, Big data visualizations with some cool tech-stacks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -53,11 +53,14 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive (Front end / User Interfaces) web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Full-stack web application development"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Cloud infrastructure management, CICD pipelines"
+    ),
+    emoji(
+        "⚡ ETL, Data pipeline, Big data visualization"
     )
   ],
 
@@ -84,6 +87,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Angular",
       fontAwesomeClassname: "fab fa-angular"
+    },,
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "npm",
@@ -112,6 +119,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "D3.js",
+      fontAwesomeClassname: "fas fa-map-location-dot"
+    },
+    {
+      skillName: "Chart.js",
+      fontAwesomeClassname: "fas fa-chart-pie"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -147,7 +166,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -274,7 +293,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Professional Qualification 🏆 "),
   subtitle:
     "Achievements, Certifications, and Some Cool Stuff that I have done !",
 
